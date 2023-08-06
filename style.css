@@ -1,6 +1,6 @@
 :root {
     --color-principal:#F6F3EF;
-    --color-secundario:#9A4C47;
+    --color-secundario:#C07F82;
     --color-terciario:#EAC570;
     --font-principal:'Schoolbell', cursive;
     --font-secundaria:'Nunito Sans', sans-serif;
@@ -66,7 +66,7 @@ header .animales {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
-    color: var(--color-terciario);
+    color: var(--color-secundario);
     text-align: center;
     display: flex;
     align-items: center;
@@ -156,7 +156,7 @@ main {
     height: auto;
     padding: 0;
     margin: 0;
-    color: var(--color-terciario);
+    color: var(--color-secundario);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -202,7 +202,7 @@ main p {
     width: 89px;
 }
 .segundo p {
-    color: var(--color-secundario);
+    color: var(--color-principal);
     padding: 6px 40px;
     max-width: 500px;
     font-size: 1em;
@@ -213,13 +213,19 @@ main p {
     width: 60px;
     padding-bottom: 10px;
 }
+.mate {
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+    text-align: center;
+    padding: 20px 0 ;
+}
 .end {
     background-image: url(./img/madeira1.png);
     background-position: center;
     background-size: cover;
     padding: 30px;
     text-align: center;
-    color: var(--color-terciario);
+    color: var(--color-secundario);
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -301,7 +307,7 @@ footer img {
         height: auto;
         padding: 0;
         margin: 0;
-        color: var(--color-terciario);
+        color: var(--color-secundario);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -314,8 +320,12 @@ footer img {
     .segundo {
         background-image: url(./img/Group.png);
         width: 100%;
+
     }
-   
+   .segundo p {
+    color: var(--color-secundario);
+
+   }
     .f1, .f2, .f3 {
         display: none;
     }
